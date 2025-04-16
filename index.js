@@ -15,15 +15,10 @@ for (var csvDataIdx = 1; csvDataIdx < csvData.length; csvDataIdx++) {
     // Set content in the layers
     var thisCSVRow = csvData[csvDataIdx].split(',')
     setContentInLayer(thisCSVRow[1], '_rp')
-    setContentInLayer(thisCSVRow[3], '_fechanac')
-    setContentInLayer(thisCSVRow[5], '_padre')
-    setContentInLayer(thisCSVRow[6], '_madre')
-    setContentInLayer(thisCSVRow[8], '_lact')
-    setContentInLayer(thisCSVRow[9], '_edad')
-    setContentInLayer(thisCSVRow[10], '_dias')
-    setContentInLayer(thisCSVRow[11] + "KG", '_leche')
-    setContentInLayer("G" + thisCSVRow[12], '_grasa')
-    setContentInLayer("P" + thisCSVRow[13], '_proteina')
+    setContentInLayer(thisCSVRow[2], '_fechanac')
+    setContentInLayer(thisCSVRow[4], '_padre')
+    setContentInLayer(thisCSVRow[5], '_madre')
+    setContentInLayer(thisCSVRow[8] + " | " + thisCSVRow[9] + " | " + thisCSVRow[10] + " | " + thisCSVRow[11] + "KG | " + "G" + thisCSVRow[12] + " | P" + thisCSVRow[13], '_prodmadre')
 
     // Apply template and customize path & file name
     var item = app.project.renderQueue.items.add(app.project.activeItem)
