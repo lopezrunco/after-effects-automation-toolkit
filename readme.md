@@ -2,11 +2,10 @@
 
 This repository combines three automation solutions for Adobe After Effects, each designed to help artists and editors streamline repetitive tasks.
 
-[x] Automate CSV to Adobe After Effects.
+- [x] Automate CSV to Adobe After Effects.
+- [x] Render web currencies.
+- [x] Label and remove unused footage.
 
-[x] Render web currencies.
-
-[x] Label and remove unused footage.
 
 <hr />
 
