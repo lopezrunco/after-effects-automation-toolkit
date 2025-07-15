@@ -1,20 +1,8 @@
-# Adobe After Effects Automation Toolkit
-
-This repository combines three automation solutions for Adobe After Effects, each designed to help artists and editors streamline repetitive tasks.
-
-[x] Automate CSV to Adobe After Effects.
-
-[x] Render web currencies.
-
-[x] Label and remove unused footage.
-
-<hr />
-
-# Automate CSV to Adobe After Effects:
+# Automate CSV to Adobe After Effects Script.
 
 This script automates the process of setting a large amount of text content into different layers in Adobe After Effects. It significantly reduces manual effort by importing data from a CSV file, applying it to text layers within a composition, rendering the video, and repeating the process for each row of data.
 
-<img src='./csv-to-ae/capture.jpg' />
+<img src='./capture.jpg' />
 
 ## Features
 
@@ -27,8 +15,7 @@ This script automates the process of setting a large amount of text content into
 
 1. **Clone the repository**:
    ```sh
-    git clone https://github.com/lopezrunco/csv-to-ae-script
-   ```
+   git clone https://github.com/lopezrunco/csv-to-ae-script
 
 2. **Prepare your data**:
     Export your Excel file as a .csv format (values separated by commas). Use the provided sample file "list.csv" in the assets folder for testing.
@@ -64,52 +51,24 @@ Note: Depending on your specific project needs, you may need to adjust the motio
 ## Compatibility
 Tested on Adobe After Effects 2022.
 
-<hr />
-
-# Render web currencies:
-
-Scrap the web of Banco Central del Uruguay, set the currency info in an After Effects comp and render.
-
-<img src='./render-web-currencies/screenshot.jpg' />
-
-## Used libraries:
-
-Axios: Promise-based HTTP client for the browser and node.js
-
-Cheerio: Parses markup and provides an API for traversing/manipulating the resulting data structure
-
-## Instructions
-
-1. Clone the repo
-   ```sh
-   git clone https://github.com/lopezrunco/ae-script-render-web-currencies.git
-   ```
-2. Install NPM packages
-   ```sh
-   npm i
-   ```
-3. Run scraper
-   ```sh
-   node fetch-currencies.js
-   # All data will be stored in data.json file
-   ```
-
-4. Go to the After Effects project and run the script render.js
-
-## Tested in:
+## Versions:
 
 ```sh
-# After Effects 2022
+    - Basic script (main branch)
+    - angus
+    - baqueano
+    - barracas
+    - elpuesto
+    - losmendez
+    - ost
+    - parana
+    - piedritas
+    - sanalberto
+    - santagraciana
+    - shorts
+    - sierravista
+    - subtitles
+    - tilos
+    - yaguari
+    - yubely
 ```
-
-<hr />
-
-# Label and remove unused footage:
-
-In the dynamic world of Adobe After Effects, organization is key. This script provides the artist with the ability to label and efficiently manage used and unused files within compositions.
-
-## Instructions
-- Download the file script.js
-- Open After Effects
-- Go to File - Scripts - Run script file...
-- Select the file script.js

@@ -1,2 +1,9 @@
-/assets
-node_modules
+/csv-to-ae/assets
+/csv-to-ae/node_modules
+
+/render-web-currencies/after-effects
+/render-web-currencies/data
+/render-web-currencies/node_modules
+/render-web-currencies/openweather-api-key.js
+
+
