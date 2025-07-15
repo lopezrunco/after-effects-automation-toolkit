@@ -6,23 +6,22 @@ This repository combines three automation solutions for Adobe After Effects, eac
 - [x] Render web currencies.
 - [x] Label and remove unused footage.
 
-
 <hr />
 
-# Automate CSV to Adobe After Effects:
+## Automate CSV to Adobe After Effects:
 
 This script automates the process of setting a large amount of text content into different layers in Adobe After Effects. It significantly reduces manual effort by importing data from a CSV file, applying it to text layers within a composition, rendering the video, and repeating the process for each row of data.
 
 <img src='./csv-to-ae/capture.jpg' />
 
-## Features
+### Features
 
 - **Automation**: Copies data from a CSV file and sets it into After Effects compositions.
 - **Efficiency**: Converts hours of manual work into minutes.
 - **Customization**: Easily adaptable for different CSV formats and After Effects projects.
 
 
-## Instructions:
+### Instructions:
 
 1. **Clone the repository**:
    ```sh
@@ -60,24 +59,24 @@ This script automates the process of setting a large amount of text content into
 
 Note: Depending on your specific project needs, you may need to adjust the motion graphics and other parameters within After Effects.
 
-## Compatibility
+### Compatibility
 Tested on Adobe After Effects 2022.
 
 <hr />
 
-# Render web currencies:
+## Render web currencies:
 
 Scrap the web of Banco Central del Uruguay, set the currency info in an After Effects comp and render.
 
 <img src='./render-web-currencies/screenshot.jpg' />
 
-## Used libraries:
+### Used libraries:
 
 Axios: Promise-based HTTP client for the browser and node.js
 
 Cheerio: Parses markup and provides an API for traversing/manipulating the resulting data structure
 
-## Instructions
+### Instructions
 
 1. Clone the repo
    ```sh
@@ -95,7 +94,7 @@ Cheerio: Parses markup and provides an API for traversing/manipulating the resul
 
 4. Go to the After Effects project and run the script render.js
 
-## Tested in:
+### Tested in:
 
 ```sh
 # After Effects 2022
@@ -103,11 +102,11 @@ Cheerio: Parses markup and provides an API for traversing/manipulating the resul
 
 <hr />
 
-# Label and remove unused footage:
+## Label and remove unused footage:
 
 In the dynamic world of Adobe After Effects, organization is key. This script provides the artist with the ability to label and efficiently manage used and unused files within compositions.
 
-## Instructions
+### Instructions:
 - Download the file script.js
 - Open After Effects
 - Go to File - Scripts - Run script file...
